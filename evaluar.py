@@ -5,7 +5,6 @@ from sdv.evaluation import evaluate
 import pandas as pd
 import sys
 
-#Fichero de evaluación
 
 def eficacia_ml():
     train_real = real_data.sample(int(len(real_data) * 0.75))
